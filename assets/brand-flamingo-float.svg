@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Flamingo Float AI">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a0a12"/>
+      <stop offset="100%" stop-color="#12182a"/>
+    </linearGradient>
+    <linearGradient id="bird" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff6b9d"/>
+      <stop offset="100%" stop-color="#ff4d8d"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <!-- soft night glow -->
+  <ellipse cx="256" cy="420" rx="170" ry="36" fill="#ff4d8d" opacity="0.18"/>
+  <!-- pool/water hint -->
+  <ellipse cx="256" cy="400" rx="140" ry="22" fill="#3b82f6" opacity="0.22"/>
+  <!-- flamingo body -->
+  <ellipse cx="268" cy="300" rx="78" ry="52" fill="url(#bird)"/>
+  <!-- S-curve neck + head (readable at 40px) -->
+  <path d="M210 280
+           C168 250 150 210 168 168
+           C182 136 220 128 248 148
+           C262 158 268 176 256 190
+           C246 202 228 200 222 188
+           C216 176 228 168 238 174
+           C228 156 200 154 186 176
+           C168 210 186 246 220 270
+           Z" fill="url(#bird)"/>
+  <!-- beak -->
+  <path d="M248 148 L302 132 L292 158 Z" fill="#fbbf24"/>
+  <path d="M248 148 L292 158 L278 168 Z" fill="#f59e0b"/>
+  <!-- eye -->
+  <circle cx="228" cy="158" r="8" fill="#0a0a12"/>
+  <circle cx="230" cy="156" r="3" fill="#fff"/>
+  <!-- wing accent -->
+  <path d="M250 278 C290 268 320 288 330 318 C300 310 270 312 250 298 Z" fill="#e11d6f" opacity="0.85"/>
+  <!-- single standing leg into water -->
+  <path d="M268 348 L268 400" stroke="#ff4d8d" stroke-width="14" stroke-linecap="round"/>
+  <path d="M268 400 L292 412" stroke="#ff4d8d" stroke-width="12" stroke-linecap="round"/>
+  <!-- tiny stars -->
+  <circle cx="96" cy="96" r="4" fill="#e2e8f0" opacity="0.7"/>
+  <circle cx="420" cy="120" r="3" fill="#e2e8f0" opacity="0.55"/>
+  <circle cx="380" cy="70" r="2.5" fill="#e2e8f0" opacity="0.5"/>
+</svg>
